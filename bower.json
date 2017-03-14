@@ -1,0 +1,8 @@
+{
+  "name": "Foobar",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "~1.9.1",
+    "bootstrap-sass": "~3.3.7"
+  }
+}
