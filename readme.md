@@ -27,8 +27,8 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
     
 - open the terminal in the project folder;
     
-- Execute the command 
-    
+- Execute the command
+
     docker-compose up
     
 - This command will up 3 containers:
