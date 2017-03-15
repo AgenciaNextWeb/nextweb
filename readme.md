@@ -22,7 +22,28 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 ## How to run
 
-**Install dependencies**
 
-    composer install
-    bower install
+- clone or update your local repository;
+    
+- open the terminal in the project folder;
+    
+- Execute the command 
+    
+    docker-compose up
+    
+- This command will up 3 containers:
+
+    memcahed;
+    mysql (This container link the port 3306 with your computer)
+    Root password: root
+    Default database: nextweb
+    username: nextweb
+    password: nextweb
+    Web (This container link the port 8000 with your computer)
+
+- Requisites to run this project:
+
+    Latest version of Docker and docker-compose
+    if you are using windows:
+    
+- Access the docker settings > Shared Drivers > check the drivers where you are using to develop and Apply. Ex.: C:, D:
