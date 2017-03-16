@@ -8,13 +8,13 @@ services:
     ports:
      - "8000:8000"
     volumes:
-     - ./app:/var/www/html/app
-     - ./bootstrap:/var/www/html/bootstrap
-     - ./database:/var/www/html/database
-     - ./public:/var/www/html/public
-     - ./resources:/var/www/html/resources
-     - ./routes:/var/www/html/routes
-     - ./storage:/var/www/html/storage
+     - ./app:/usr/src/lumen/app
+     - ./bootstrap:/usr/src/lumen/bootstrap
+     - ./database:/usr/src/lumen/database
+     - ./public:/usr/src/lumen/public
+     - ./resources:/usr/src/lumen/resources
+     - ./routes:/usr/src/lumen/routes
+     - ./storage:/usr/src/lumen/storage
 
   mysql:
     image: mysql:5.7
