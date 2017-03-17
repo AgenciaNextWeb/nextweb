@@ -29,7 +29,10 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
     
 - Execute the command
 
+    ```
     docker-compose up
+    sass --watch public/scss:public/css --style compressed
+    ```
     
 - This command will up 3 containers:
     ```

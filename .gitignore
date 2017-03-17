@@ -6,3 +6,4 @@ Homestead.yaml
 /composer.phar
 /composer.lock
 /public/libs/
+/.sass-cache/
