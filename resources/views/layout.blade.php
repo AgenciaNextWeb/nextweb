@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    @yield('head')
+    @yield('page-head')
 </head>
 <body>
 <div class="container">
 
     <header class="row">
-        @include('includes.header')
+        @yield('header')
     </header>
 
     <div id="main" class="row">
@@ -17,9 +17,11 @@
     </div>
 
     <footer class="row">
-        @include('includes.footer')
+        @yield('footer')
     </footer>
 
 </div>
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 </body>
 </html>
