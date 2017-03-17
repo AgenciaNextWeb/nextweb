@@ -5,3 +5,4 @@ Homestead.yaml
 /bower_components
 /composer.phar
 /composer.lock
+/public/libs/
