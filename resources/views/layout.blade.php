@@ -4,23 +4,21 @@
     @yield('page-head')
 </head>
 <body>
-<div class="container">
 
-    <header class="row">
+    <header>
         @yield('header')
     </header>
 
-    <div id="main" class="row">
+    <div id="main">
 
         @yield('content')
 
     </div>
 
-    <footer class="row">
+    <footer>
         @yield('footer')
     </footer>
 
-</div>
 <script src="libs/jquery/jquery.min.js"></script>
 <script src="libs/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 </body>
