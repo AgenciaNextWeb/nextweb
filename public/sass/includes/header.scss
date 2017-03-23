@@ -1,4 +1,6 @@
+@import "../global/variables";
 @import "../../libs/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../libs/meanmenu";
 /*--------------------------
 	Header Style
 --------------------------*/
@@ -177,8 +179,8 @@
 .header-bottom{}
 /* Header Logo */
 .header-logo, .navbar-header {
-  margin-bottom: 22px;
-  margin-top: 22px;
+  margin-bottom: 28px;
+  margin-top: 28px;
   z-index: 999;
 }
 .stick .header-logo, .stick .navbar-header {
@@ -192,6 +194,11 @@
   display: block;
   height: auto;
   padding: 0;
+  font-size: 2em;
+  span {
+    color: $base2;
+    font-size: 1.3em;
+  }
 }
 .header-logo .logo img{}
 /* Menu Wrapper */
@@ -235,7 +242,7 @@
   margin-left: 44px;
 }
 .main-menu nav > ul > li > a {
-  color: #303030;
+  color: $base3;
   display: block;
   font-size: 14px;
   line-height: 23px;
@@ -249,10 +256,10 @@
   margin-left: 3px;
 }
 .main-menu nav > ul > li.active > a {
-  color: #d01a41;
+  color: $base2;
 }
 .main-menu nav > ul > li > a::before, .main-menu nav > ul > li > a::after {
-  background-color: #d01a41;
+  background-color: $base2;
   border-radius: 50%;
   content: "";
   height: 1px;
@@ -273,7 +280,7 @@
   opacity: 1;
 }
 .main-menu nav > ul > li.active > a::before, .main-menu nav > ul > li.active > a::after {
-  background-color: #d01a41;
+  background-color: $base2;
   width: 15px;
   opacity: 1;
 }
@@ -311,7 +318,7 @@
   line-height: 20px;
 }
 .main-menu nav > ul li ul li:hover > a {
-  color: #d01a41;
+  color: $base2;
 }
 /* Sub Menu 2nd */
 .main-menu nav > ul ul li ul {
@@ -398,7 +405,7 @@
   display: none;
 }
 .menu-style-6 nav > ul > li.active > a, .menu-style-6 nav > ul > li:hover > a {
-  background-color: #d01a41;
+  background-color: $base2;
   color: #fff !important;
 }
 /*-- Menu 7
@@ -442,8 +449,8 @@
   color: #fff;
 }
 .menu-style-7 nav > ul > li.active > a, .menu-style-7 nav > ul > li.active:hover > a {
-  border-color: #d01a41;
-  color: #d01a41;
+  border-color: $base2;
+  color: $base2;
 }
 /*-- Menu 8
 ================= */
@@ -491,7 +498,7 @@
 }
 /* Mean Menu Reveal */
 .mean-container a.meanmenu-reveal {
-  color: #303030;
+  color: $base3;
   height: 40px;
   padding: 0;
   text-align: right !important;
@@ -539,7 +546,7 @@
 }
 .mean-container .mean-nav ul li a {
   border: medium none;
-  color: #303030;
+  color: $base3;
   display: block;
   font-size: 14px;
   line-height: 23px;
@@ -553,7 +560,7 @@
 }
 .mean-container .mean-nav ul li a:hover {
   background-color: transparent;
-  color: #d01a41;
+  color: $base2;
 }
 /* Mean Sub Menu */
 .mean-container .mean-nav > ul > li ul {
@@ -563,7 +570,7 @@
 .mean-container .mean-nav > ul > li > ul li{}
 .mean-container .mean-nav > ul > li > ul li a {
   border: medium none;
-  color: #303030;
+  color: $base3;
   font-size: 13px;
   opacity: 1;
   padding: 8px 15px 8px 0;

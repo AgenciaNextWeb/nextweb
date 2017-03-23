@@ -1,137 +1,229 @@
+@import "variables";
 body {
-  font-size: 16px;
-  font-weight: 300;
-  height: 100%;
-  font-family: 'Poppins', sans-serif;
+  color: $base4;
+  font-family: "Poppins",sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  visibility: visible;
 }
-
-html,
-body {
-  height: 100%
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {}
-
-a {
-  text-decoration: none;
-  -webkit-transition: all 0.4s;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
 img {
-  width: 100%;
+  max-width:100%;
+  height:auto
 }
-
-a:hover {
-  text-decoration: none;
+h1, h2, h3, h4, h5, h6 {
+  color: $base3;
+  font-weight: 600;
 }
-
+p:last-child {
+  margin-bottom: 0;
+}
+a, button{
+  text-decoration:none;
+  color: $base4;
+}
+a, a::before, a::after, i, button, img, input,
+*::before, *::after {
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+*:focus {
+  outline:0px solid
+}
 a:focus {
-  outline: none;
+  color: $base3;
+  outline: medium none;
   text-decoration: none;
 }
-
-p {
-  line-height: 32px;
+a:hover {
+  color: $base2;
+  text-decoration: none;
 }
-
-ul,
-li {
+ul{
+  list-style: outside none none;
   margin: 0;
-  padding: 0;
-}
-
-fieldset {
-  border: 0 none;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.no-padding {
   padding: 0
 }
 
-.section-padding {
-  padding: 70px 0px;
+.fix {
+  overflow:hidden
+}
+.clear{
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.table, .table-cell {
+  display: table;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
 }
 
+.margin-0 {
+  margin: 0px !important;
+}
+.margin-top-90 {
+  margin-top: 90px !important;
+}
+.margin-bottom-90 {
+  margin-bottom: 90px !important;
+}
+.margin-bottom-25 {
+  margin-bottom: 25px !important;
+}
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+.margin-bottom-30 {
+  margin-bottom: 30px !important;
+}
+.margin-90 {
+  margin-bottom: 90px !important;
+  margin-top: 90px !important;
+}
+.padding-0 {
+  padding: 0px !important;
+}
+.padding-top-80 {
+  padding-top: 80px !important;
+}
+.padding-top-90 {
+  padding-top: 90px !important;
+}
+.padding-bottom-90 {
+  padding-bottom: 90px !important;
+}
+.padding-90 {
+  padding-bottom: 90px !important;
+  padding-top: 90px !important;
+}
+.overlay {
+  background: rgba(0,0,0,0.5);
+  display: block;
+  height: 100%;
+  width: 100%;
+}
 .section-title {
-  margin-bottom: 30px;
-}
-
-.section-title p {
-  font-size: 15px;
-  font-weight: 300;
-  line-height: 26px;
-  padding-right: 600px;
-}
-
-.section-title h2 {
-  font-size: 40px;
-  text-transform: capitalize;
-  margin-bottom: 35px;
-  font-weight: 600;
+  margin-bottom: 50px;
   position: relative;
-  margin-top: 0;
 }
-
-.section-title h2:before {
-  position: absolute;
-  left: 0;
-  top: 56px;
-  height: 10px;
-  width: 74px;
-  background: #ff1654;
+.section-title h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+}
+.section-title p {
+  padding-bottom: 13px;
+}
+.section-title::before {
+  width: 64px;
+  height: 1px;
+  background: #dddddd;
+  margin-left: -32px;
+  bottom: 0px;
+  left: 50%;
   content: "";
-  z-index: 1;
+  position: absolute;
+}
+.bg-off-white {
+  background: #f8f8f8;
 }
 
-a.read-more {
-  display: inline-block;
-  color: #fff;
-  padding: 12px 25px;
-  text-transform: capitalize;
-  font-size: 14px;
-  border: 1px solid #ff1654;
-  background-color: #ff1654;
-  border-radius: 5px;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-a.read-more:hover {
-  background: transparent;
-  color: #000;
-  border: 1px solid #ff1654;
-  -webkit-transition: .3s;
-  transition: .3s;
-}
-
-.scrollup {
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  font-size: 14px;
-  color: #fff;
-  text-align: center;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  line-height: 40px;
+.button {
+  background: $base3 none repeat scroll 0 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $overlay;
+  color: $base1;
   cursor: pointer;
-  display: none;
-  z-index: 2;
-  background: #ff1654;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button.color {
+  background: $base2 none repeat scroll 0 0;
+  border-color: $base2;
+}
+.button.transparent {
+  background: transparent;
+  color: $base3;
+}
+.button.color.transparent {
+  color: $base2;
+}
+.button.small {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 20px;
+}
+.button.large {
+  height: 42px;
+  line-height: 42px;
+  padding: 0 32px;
+}
+.button:hover {
+  background: transparent;
+  color: $base3;
+}
+.button.color:hover {
+  background: transparent;
+  color: $base2;
+}
+.button.transparent:hover {
+  background: $base3;
+  color: $base1;
+}
+.button.color.transparent:hover {
+  background: $base2;
+}
+.button.color-hover:hover {
+  background: $base2;
+  border-color: $base2;
+  color: $base1;
+}
+.button.white-hover:hover {
+  background: $base1;
+  border-color: $base1;
+  color: $base2;
+}
+.button.black-hover:hover {
+  background: $base3;
+  border-color: $base3;
+  color: $base1;
 }
 
-.scrollup:hover {
-  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
+#scrollUp {
+  background: $base2 none repeat scroll 0 0;
+  bottom: 30px;
+  color: $base1;
+  height: 40px;
+  right: 30px;
+  text-align: center;
+  width: 40px;
+}
+#scrollUp i {
+  font-size: 16px;
+  line-height: 40px;
 }

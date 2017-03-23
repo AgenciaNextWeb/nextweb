@@ -4,7 +4,7 @@
   "dependencies": {
     "jquery": "~1.9.1",
     "bootstrap-sass": "~3.3.7",
-    "slicknav": "^1.0.10",
-    "font-awesome": "fontawesome#^4.7.0"
+    "font-awesome": "fontawesome#^4.7.0",
+    "scrollup": "^2.4.1"
   }
 }
