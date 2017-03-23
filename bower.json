@@ -1,8 +1,10 @@
 {
-  "name": "Nextweb",
+  "name": "nextweb",
   "version": "0.1.0",
   "dependencies": {
     "jquery": "~1.9.1",
-    "bootstrap-sass": "~3.3.7"
+    "bootstrap-sass": "~3.3.7",
+    "slicknav": "^1.0.10",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }
