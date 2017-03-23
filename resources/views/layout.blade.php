@@ -4,6 +4,7 @@
     @yield('page-head')
     <link rel="stylesheet" href="libs/slicknav/dist/slicknav.min.css">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     @yield('header')
