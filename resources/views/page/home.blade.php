@@ -17,29 +17,32 @@
 @stop
 
 @section('content')
-    <div class="hero-wrapper text-center">
-        <div class="hero-overlay"></div>
-        <div class="hero-content fix">
-            <h1>TRANSFORMANDO O SEU SONHO</h1>
-            <h3>na sua nova realidade</h3>
-            <p><span>Sites personalizados</span> + <span>Sites padronizados</span> + <span>Melhorias de segurança</span> + <span>Mídias sociais</span></p>
-            <a href="services" class="button large color-hover">saiba mais</a>
-            <a href="contact" class="button large color-hover">contato</a>
+    <main id="nw-home">
+    <section id="nw-hero">
+        <div class="hero-wrapper text-center">
+            <div class="hero-overlay"></div>
+            <div class="hero-content fix">
+                <h1>TRANSFORMANDO O SEU SONHO</h1>
+                <h3>na sua nova realidade</h3>
+                <p><span>Sites personalizados</span> + <span>Sites padronizados</span> + <span>Melhorias de segurança</span> + <span>Mídias sociais</span></p>
+                <a href="services" class="button large color-hover">saiba mais</a>
+                <a href="contact" class="button large color-hover">contato</a>
+            </div>
         </div>
-    </div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
-    <div>pfff</div>
+    </section>
+
+    <section id="nw-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>Serviços</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
 @stop
 
 @section('footer')
