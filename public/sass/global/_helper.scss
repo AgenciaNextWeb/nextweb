@@ -1,1 +1,52 @@
 @import "variables";
+
+/***********************************/
+/***             Mixins          ***/
+/***********************************/
+
+//Placeholder style
+@mixin input-placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+
+
+/***********************************/
+/***        Class Helper         ***/
+/***********************************/
+@each $name in '5' '10' '15' '20' {
+  .top-padding-#{$name} {
+    padding-top: #{$name}px;
+  }
+  .bottom-padding-#{$name} {
+    padding-bottom: #{$name}px;
+  }
+  .right-padding-#{$name} {
+    padding-right: #{$name}px;
+  }
+  .left-padding-#{$name} {
+    padding-left: #{$name}px;
+  }
+  .all-padding-#{$name}{
+    padding: #{$name}px;
+  }
+  .top-margin-#{$name} {
+    margin-top: #{$name}px;
+  }
+  .bottom-margin-#{$name} {
+    margin-bottom: #{$name}px;
+  }
+  .right-margin-#{$name} {
+    margin-right: #{$name}px;
+  }
+  .left-margin-#{$name} {
+    margin-left: #{$name}px;
+  }
+  .all-margin-#{$name}{
+    margin: #{$name}px;
+  }
+}

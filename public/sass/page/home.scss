@@ -1,6 +1,7 @@
+@import "../../libs/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../global/global";
-
-
+@import "../includes/header";
+@import "../includes/footer";
 //Hero
 .hero-wrapper {
   background: url(../../image/slider/bg-1.jpg) no-repeat 0 0;
@@ -84,7 +85,95 @@
   top: 56px;
   height: 10px;
   width: 74px;
-  background: #ff1654;
+  background: $base2;
   content: "";
   z-index: 1;
+}
+
+//Services
+/*
+* ----------------------------------------------------------------------------------------
+* 11.PRICING CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+.pricing-area {}
+
+.pricing-box {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-top: 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  background: #FAFAFA;
+}
+
+.pricing-box:hover a.plan-more {
+  background: transparent;
+  color: #000;
+  border: 1px solid $base2;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.pricing-box:hover {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.pricing-box.active .plan-price {
+  color: $base2;
+}
+
+.pricing-header i {
+  font-size: 40px;
+  color: $base2;
+}
+
+.pricing-header .plan-title {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.plan-price p {
+  font-size: 40px;
+  color: $base2;
+  font-weight: 900;
+  span {
+    font-size: 16px;
+    color: #ccc;
+    font-weight: 300;
+  }
+}
+
+.plan-features {
+  margin-top: 40px;
+  li {
+    margin: 0;
+    padding-bottom: 8px;
+    font-size: 16px;
+  }
+}
+a.plan-more {
+  margin-top: 30px;
+  display: inline-block;
+  color: $base1;
+  padding: 12px 25px;
+  text-transform: capitalize;
+  font-size: 14px;
+  border: 1px solid $base2;
+  background-color: $base2;
+  font-weight: 600;
+  &:hover {
+    background: transparent;
+    color: #000;
+    border: 1px solid $base2;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
 }

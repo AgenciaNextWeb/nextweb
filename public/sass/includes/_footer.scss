@@ -1,0 +1,36 @@
+.footer-area {
+  background: $black;
+  padding: 80px 0px;
+}
+
+.footer-text h6 {
+  text-transform: capitalize;
+  color: $base1;
+  line-height: 25px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.footer-social-link {
+  margin-top: 20px;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin: 0px 10px;
+      a {
+        display: block;
+        color: $base2;
+        margin-bottom: 10px;
+        i {
+          transition: all 0.1s ease 0s;
+          &:hover {
+            color: $base1;
+          }
+        }
+      }
+    }
+  }
+}
