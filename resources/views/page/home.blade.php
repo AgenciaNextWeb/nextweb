@@ -103,7 +103,7 @@
                             <li><i class="fa fa-check"></i> Marketing</li>
                             <li><i class="fa fa-check"></i> </li>
                         </ul>
-                        <a class="plan-more" href="">Ver mais</a>
+                        <a class="plan-more" href="">Ver mais </a>
                     </div>
                 </div>
             </div>
