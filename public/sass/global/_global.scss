@@ -25,12 +25,13 @@ a, button{
   text-decoration:none;
   color: $base4;
 }
-a, a::before, a::after, i, button, img, input,
-*::before, *::after {
-  -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
+
 *:focus {
   outline:0px solid
 }
