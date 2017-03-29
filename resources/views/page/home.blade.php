@@ -174,7 +174,7 @@
                                 </ul>
                             </div>
                             <div class="team-description">
-                                <h4>Nicolas V. Scroczynski</h4>
+                                <h4>Nicolas V. Sroczynski</h4>
                                 <h6>Gerente de Projeto</h6>
                             </div>
                         </div>
