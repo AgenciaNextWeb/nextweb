@@ -48,9 +48,9 @@
                             </div>
                             <ul class="list-unstyled plan-features">
                                 <li><i class="fa fa-check"></i> Responsivo</li>
-                                <li><i class="fa fa-check"></i> Design personalizado</li>
-                                <li><i class="fa fa-check"></i> </li>
-                                <li><i class="fa fa-check"></i> </li>
+                                <li><i class="fa fa-check"></i> Design único</li>
+                                <li><i class="fa fa-check"></i> SEO</li>
+                                <li><i class="fa fa-check"></i> Análise de Resultados</li>
                             </ul>
                             <a class="plan-more" href="">Ver mais</a>
                         </div>
@@ -98,10 +98,10 @@
                                 </div>
                             </div>
                             <ul class="list-unstyled plan-features">
-                                <li><i class="fa fa-check"></i> Publicações</li>
+                                <li><i class="fa fa-check"></i> Conteúdo</li>
                                 <li><i class="fa fa-check"></i> Atendimento</li>
                                 <li><i class="fa fa-check"></i> Marketing</li>
-                                <li><i class="fa fa-check"></i> </li>
+                                <li><i class="fa fa-check"></i> Análise de Resultados</li>
                             </ul>
                             <a class="plan-more" href="">Ver mais</a>
                         </div>

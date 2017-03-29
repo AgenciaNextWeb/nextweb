@@ -38,6 +38,9 @@
     margin: 0 0 10px;
     text-transform: capitalize;
     color: $base1;
+    @media screen and (max-width: 600px) {
+      font-size: 30px;
+    }
   }
   img {
     margin: 0 0 30px;
@@ -48,6 +51,9 @@
     font-weight: 400;
     margin: 0 0 20px;
     color: $base1;
+    @media screen and (max-width: 600px) {
+      font-size: 25px;
+    }
   }
   p {
     color: $base2;
@@ -60,6 +66,10 @@
       font-weight: 400;
       margin: 0 10px;
       text-transform: uppercase;
+
+      @media screen and (max-width: 600px) {
+        font-size: 12px;
+      }
     }
   }
   .button {
