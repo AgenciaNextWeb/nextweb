@@ -114,7 +114,7 @@
                 <div class="row">
                     <div class="col-md-7">
                         <div class="call-to-area-text">
-                            <h2>Nós podemos te ajudar a crescer com sua empresa online.</h2>
+                            <h2>Nós podemos ajudar a sua empresa a crescer.</h2>
                             <p>Nossos profissionais estão preparados para ajudar a você e sua empresa em tudo que precisarem.</p>
                             <a href="#">Fale conosco</a>
                         </div>
