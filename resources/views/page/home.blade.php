@@ -1,16 +1,11 @@
 @extends('layout')
 @section('page-head')
-    <title xmlns="http://www.w3.org/1999/html">Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,400,500,600,700|Raleway:300,400,400i,500,600,700,800&quot; rel=&quot;stylesheet">
+    <title xmlns="http://www.w3.org/1999/html">Nextweb - Home</title>
     <link rel="stylesheet" href="css/page/home.css">
-
-    <script src="javascript/modernizr-2.8.3.min.js"></script>
 @stop
 
 @section('header')
-    @include('includes.header')
+    @include('includes.header', array('page'=>'home'))
 @stop
 
 @section('content')

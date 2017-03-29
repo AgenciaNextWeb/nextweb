@@ -10,9 +10,9 @@
                     <div class="main-menu mean-menu float-right">
                         <nav style="display: block;">
                             <ul>
-                                <li class="active"><a href="/">home</a></li>
-                                <li><a href="#">sobre nós</a></li>
-                                <li><a href="#">serviços<i class="fa fa-angle-down"></i></a>
+                                <li class="@if($page=='home')active @endif"><a href="/">home</a></li>
+                                <li class="@if($page=='aboutus')active @endif"><a href="/aboutus">sobre nós</a></li>
+                                <li class="@if($page=='services')active @endif"><a href="#">serviços<i class="fa fa-angle-down"></i></a>
                                     <ul>
                                         <li><a href="#">Sites Personalizados</a></li>
                                         <li><a href="#">Sites Padronizados</a></li>
@@ -20,9 +20,9 @@
                                         <li><a href="#">Mídias Sociais</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">portfolio</a></li>
-                                <li><a href="#">equipe</a></li>
-                                <li><a href="#">contato</a></li>
+                                <li class="@if($page=='portfolio')active @endif"><a href="#">portfolio</a></li>
+                                <li class="@if($page=='team')active @endif"><a href="#">equipe</a></li>
+                                <li class="@if($page=='contact')active @endif"><a href="#">contato</a></li>
                             </ul>
                         </nav>
                     </div>

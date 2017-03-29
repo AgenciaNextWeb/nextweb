@@ -12,3 +12,4 @@
 */
 
 $app->get('/', 'HomeController@index');
+$app->get('/aboutus', 'AboutUsController@index');

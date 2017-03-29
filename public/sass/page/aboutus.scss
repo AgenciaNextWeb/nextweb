@@ -1,0 +1,245 @@
+@import "../../libs/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../global/global";
+@import "../includes/header";
+@import "../includes/footer";
+//Breadcrumb
+#nw-breadcrumb {
+  margin-top: 90px;
+  background: $black;
+  font-size: 20px;
+  color: $base1;
+  padding: 40px 0;
+  a {
+    color: $base2;
+    text-transform: capitalize;
+  }
+}
+//About us
+.call-to-area {
+  background: url("/image/slider/bg-2.jpg");
+  background-size: cover;
+  padding: 100px 0px;
+  position: relative;
+  z-index: 1;
+  &:after {
+    position: absolute;
+    background: $overlay;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    opacity: 0.7;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+  }
+}
+
+.call-to-area-text {
+  h2 {
+    color: $base1;
+    font-size: 40px;
+    font-weight: 400;
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+  p {
+    color: $base1;
+    margin-bottom: 30px;
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+  a {
+    display: inline-block;
+    color: $base1;
+    padding: 12px 25px;
+    text-transform: capitalize;
+    font-size: 14px;
+    border: 1px solid $base2;
+    background-color: $base2;
+    font-weight: 600;
+    letter-spacing: 1px;
+    &:hover {
+      background: transparent;
+      color: $base1;
+      border: 1px solid $base2;
+      -webkit-transition: .3s;
+      transition: .3s;
+    }
+  }
+}
+
+//Team
+.single-team {
+  margin-top: 30px;
+  color: $base1;
+  -webkit-transition: 1s;
+  transition: 1s;
+  position: relative;
+  &:hover {
+    .team-social {
+      opacity: 1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+      -webkit-transition: 1s;
+      transition: 1s;
+    }
+  }
+}
+
+.team-social {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-transition: .3s;
+  transition: .3s;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      a {
+        display: block;
+        color: $base2;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 40px;
+        background: $black;
+        border-bottom: 1px solid $base4;
+        &:hover {
+          color: $base1;
+        }
+      }
+    }
+  }
+
+}
+
+.single-team {
+  img {
+    width: 100%;
+  }
+  h4 {
+    margin: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  h6 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+}
+.team-description {
+  border-top: 2px solid $base2;
+  margin-top: 15px;
+  background: #F7F7F7;
+  padding: 20px 30px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #333;
+}
+
+//Contact
+.contact-area {
+  background: #F7F7F7;
+}
+
+.contact-details-list {
+  background: $base1;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.contact-icon {
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  i {
+    font-size: 20px;
+    color: $base2;
+  }
+}
+
+.single-contact {
+  margin-bottom: 22px;
+  h2 {
+    font-size: 18px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+}
+
+.contact-form {
+  margin-top: 30px;
+  input[type='submit'] {
+    display: inline-block;
+    color: $base1;
+    padding: 12px 25px;
+    text-transform: capitalize;
+    font-size: 14px;
+    border: 1px solid $base2;
+    background-color: $base2;
+    border-radius: 0;
+    font-weight: 600;
+    &:hover {
+      background: transparent;
+      color: $black;
+      border: 1px solid $base2;
+      -webkit-transition: .3s;
+      transition: .3s;
+    }
+  }
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: $black;
+  background-color: transparent;
+  background-image: none;
+  border-radius: 0px;
+  box-shadow: none;
+  margin-bottom: 10px;
+  padding: 17px 7px 14px 15px;
+  border: 1px solid #f2f2f2;
+  background: $base1;
+  -webkit-transition: .3s;
+  transition: .3s;
+  &:focus {
+    border-color: $base2;
+    outline: 0;
+    box-shadow: none;
+  }
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+}
+
+.success {
+  background: $sucess none repeat scroll 0 0;
+  color: $base1;
+  font-weight: 700;
+  padding: 20px;
+  text-align: center;
+}
