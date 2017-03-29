@@ -176,14 +176,16 @@ a.plan-more {
 }
 //About us
 .call-to-area {
-  background: $base1;
+  background: url("/image/slider/bg-2.jpg");
   background-size: cover;
   padding: 100px 0px;
   position: relative;
   z-index: 1;
   &:after {
     position: absolute;
-    background: $black;
+    background: $overlay;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    opacity: 0.7;
     left: 0;
     top: 0;
     width: 100%;
@@ -195,7 +197,7 @@ a.plan-more {
 
 .call-to-area-text {
   h2 {
-    color: #fff;
+    color: $base1;
     font-size: 40px;
     font-weight: 400;
     &:first-letter {
@@ -203,7 +205,7 @@ a.plan-more {
     }
   }
   p {
-    color: #fff;
+    color: $base1;
     margin-bottom: 30px;
     &:first-letter {
       text-transform: uppercase;
@@ -211,18 +213,18 @@ a.plan-more {
   }
   a {
     display: inline-block;
-    color: #fff;
+    color: $base1;
     padding: 12px 25px;
     text-transform: capitalize;
     font-size: 14px;
-    border: 1px solid #ff1654;
-    background-color: #ff1654;
+    border: 1px solid $base2;
+    background-color: $base2;
     font-weight: 600;
     letter-spacing: 1px;
     &:hover {
       background: transparent;
-      color: #fff;
-      border: 1px solid #ff1654;
+      color: $base1;
+      border: 1px solid $base2;
       -webkit-transition: .3s;
       transition: .3s;
     }
@@ -232,7 +234,7 @@ a.plan-more {
 //Team
 .single-team {
   margin-top: 30px;
-  color: #fff;
+  color: $base1;
   -webkit-transition: 1s;
   transition: 1s;
   position: relative;
@@ -263,15 +265,15 @@ a.plan-more {
     li {
       a {
         display: block;
-        color: #FF1654;
+        color: $base2;
         height: 40px;
         width: 40px;
         text-align: center;
         line-height: 40px;
         background: #000;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid $base4;
         &:hover {
-          color: #fff;
+          color: $base1;
         }
       }
     }
@@ -297,7 +299,7 @@ a.plan-more {
   }
 }
 .team-description {
-  border-top: 2px solid #FF1654;
+  border-top: 2px solid $base2;
   margin-top: 15px;
   background: #F7F7F7;
   padding: 20px 30px;
