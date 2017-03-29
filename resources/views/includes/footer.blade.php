@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <div class="footer-text">
-                    <h6>©copyright | Smoth 2016.all right Reserved <br>Developed by Wordpressboss</h6>
+                    <h6>2017 © <strong>Agência Nextweb</strong> <br>Todos os direitos reservados.</h6>
                 </div>
                 <div class="footer-social-link">
                     <ul>
