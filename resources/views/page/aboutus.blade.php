@@ -34,12 +34,12 @@
                         <div class="about-text">
                             <h2>Pensamos no melhor para você e sua empresa.</h2>
                             <p>
-                                A ideia da criação da Nextweb surgiu através da necessidade de fornecer qualidade combinada a um preço acessivel para
+                                A ideia da criação da Nextweb surgiu através da necessidade de fornecer qualidade combinada a um preço acessível para
                                 as pessoas e empresas que estão buscando novas formas de visibilidade.
                             </p>
                             <p>
                                 Nossa equipe está sempre trabalhando para oferecer o que há de melhor em termos de tecnologia. Buscamos sempre aprimorar
-                                nossos serviços para garantir sempre que nossos clientes assim como a nossa propria empresa estejam trabalhando com o que
+                                nossos serviços para garantir sempre que nossos clientes assim como a nossa própria empresa estejam trabalhando com o que
                                 há de melhor.
                             </p>
                         </div>
