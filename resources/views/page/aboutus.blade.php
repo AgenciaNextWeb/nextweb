@@ -5,7 +5,7 @@
 @stop
 
 @section('header')
-    @include('includes.header', array('page'=>'aboutus'))
+    @include('includes.header', array('page'=>'sobrenos'))
 @stop
 
 @section('content')
