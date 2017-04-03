@@ -32,7 +32,7 @@
                     <!-- START ABOUT TEXT DESIGN AREA -->
                     <div class="col-md-6">
                         <div class="about-text">
-                            <h2>Pensando no melhor para você e sua empresa.</h2>
+                            <h2>Pensamos no melhor para você e sua empresa.</h2>
                             <p>
                                 A ideia da criação da Nextweb surgiu através da necessidade de fornecer qualidade combinada a um preço acessivel para
                                 as pessoas e empresas que estão buscando novas formas de visibilidade.
