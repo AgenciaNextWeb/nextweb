@@ -17,8 +17,8 @@
                     <h1>TRANSFORMANDO O SEU SONHO</h1>
                     <h3>na sua nova realidade</h3>
                     <p><span>Sites personalizados</span> + <span>Sites padronizados</span> + <span>Manutenção de Sites</span> + <span>Mídias sociais</span></p>
-                    <a href="services" class="button large color-hover">saiba mais</a>
-                    <a href="contact" class="button large color-hover">contato</a>
+                    <a href="servicos" class="button large color-hover">saiba mais</a>
+                    <a href="contato" class="button large color-hover">contato</a>
                 </div>
             </div>
         </section>
@@ -111,7 +111,7 @@
                         <div class="call-to-area-text">
                             <h2>Nós podemos ajudar a sua empresa a crescer.</h2>
                             <p>Nossos profissionais estão preparados para ajudar a você e sua empresa em tudo que precisarem.</p>
-                            <a href="#">Fale conosco</a>
+                            <a href="contato">Fale conosco</a>
                         </div>
                     </div>
                 </div>
@@ -127,22 +127,6 @@
                     </div>
                 </div>
                 <div class="row">
-                    <!-- START SINGLE TEAM DESIGN AREA -->
-                    <div class="col-md-4 col-sm-12">
-                        <div class="single-team">
-                            <img src="image/team/team1.jpg" alt="">
-                            <div class="team-social">
-                                <ul>
-                                    <li><a href="https://www.facebook.com/rodrigoborth" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="team-description">
-                                <h4>Rodrigo J Borth</h4>
-                                <h6>Diretor de Marketing</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- / END SINGLE TEAM DESIGN AREA -->
                     <!-- START SINGLE TEAM DESIGN AREA -->
                     <div class="col-md-4 col-sm-12">
                         <div class="single-team">
@@ -171,6 +155,22 @@
                             <div class="team-description">
                                 <h4>Nicolas V. Sroczynski</h4>
                                 <h6>Gerente de Projeto</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE TEAM DESIGN AREA -->
+                    <!-- START SINGLE TEAM DESIGN AREA -->
+                    <div class="col-md-4 col-sm-12">
+                        <div class="single-team">
+                            <img src="image/team/team1.jpg" alt="">
+                            <div class="team-social">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/rodrigoborth" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="team-description">
+                                <h4>Rodrigo J Borth</h4>
+                                <h6>Diretor de Marketing</h6>
                             </div>
                         </div>
                     </div>

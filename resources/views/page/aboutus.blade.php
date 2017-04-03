@@ -55,7 +55,7 @@
                         <div class="call-to-area-text">
                             <h2>Nós podemos ajudar a sua empresa a crescer.</h2>
                             <p>Nossos profissionais estão preparados para ajudar a você e sua empresa em tudo que precisarem.</p>
-                            <a href="/contact">Fale conosco</a>
+                            <a href="/contato">Fale conosco</a>
                         </div>
                     </div>
                 </div>
