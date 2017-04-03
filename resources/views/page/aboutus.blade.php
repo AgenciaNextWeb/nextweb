@@ -19,7 +19,36 @@
                 </div>
             </div>
         </section>
-        <section id="nw-about" class="call-to-area bottom-margin-20">
+        <section id="nw-image-area" class="about-us-area">
+            <div class="container">
+                <div class="row">
+                    <!-- START ABOUT IMAGE DESIGN AREA -->
+                    <div class="col-md-6">
+                        <div class="about-image">
+                            <img src="image/aboutus/aboutus.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <!-- / END ABOUT IMAGE DESIGN AREA -->
+                    <!-- START ABOUT TEXT DESIGN AREA -->
+                    <div class="col-md-6">
+                        <div class="about-text">
+                            <h2>Pensando no melhor para você e sua empresa.</h2>
+                            <p>
+                                A ideia da criação da Nextweb surgiu através da necessidade de fornecer qualidade combinada a um preço acessivel para
+                                as pessoas e empresas que estão buscando novas formas de visibilidade.
+                            </p>
+                            <p>
+                                Nossa equipe está sempre trabalhando para oferecer o que há de melhor em termos de tecnologia. Buscamos sempre aprimorar
+                                nossos serviços para garantir sempre que nossos clientes assim como a nossa propria empresa estejam trabalhando com o que
+                                há de melhor.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- / END ABOUT TEXT DESIGN AREA -->
+                </div>
+            </div>
+        </section>
+        <section id="nw-about" class="call-to-area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
