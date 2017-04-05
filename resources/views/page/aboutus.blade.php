@@ -48,6 +48,47 @@
                 </div>
             </div>
         </section>
+        <section id="nw-team" class="bottom-padding-20 top-padding-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="section-title">
+                            <h2>Equipe</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row bottom-margin-20">
+                    <div class="col-md-4 col-sm-12">
+                        <img class="img-responsive" src="image/team/team2.jpg" alt="">
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h4>Mateus Demboski</h4>
+                        <p>escreve aqui tua biografia</p>
+                    </div>
+                </div>
+                <div class="row bottom-margin-20">
+                    <div class="col-md-4 col-sm-12">
+                        <img class="img-responsive" src="image/team/team3.jpg" alt="">
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h4>Nicolas V. Sroczynski</h4>
+                        <p>escreve aqui tua biografia</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <img class="img-responsive" src="image/team/team1.jpg" alt="">
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <h4>Rodrigo J. Borth</h4>
+                        <p>escreve aqui tua biografia</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="/equipe" class="team-link pull-right">Mais informações</a>
+                </div>
+            </div>
+        </section>
         <section id="nw-about" class="call-to-area">
             <div class="container">
                 <div class="row">

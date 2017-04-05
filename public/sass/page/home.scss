@@ -311,7 +311,7 @@ a.plan-more {
 .team-description {
   border-top: 2px solid $base2;
   margin-top: 15px;
-  background: #F7F7F7;
+  background: $base5;
   padding: 20px 30px;
   -webkit-transition: .3s;
   transition: .3s;
@@ -320,7 +320,7 @@ a.plan-more {
 
 //Contact
 .contact-area {
-  background: #F7F7F7;
+  background: $base5;
 }
 
 .contact-details-list {

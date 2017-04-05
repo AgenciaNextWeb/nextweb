@@ -21,7 +21,6 @@
                                     </ul>
                                 </li>
                                 <li class="@if($page=='portfolio')active @endif"><a href="#">portfolio</a></li>
-                                <li class="@if($page=='equipe')active @endif"><a href="#">equipe</a></li>
                                 <li class="@if($page=='contato')active @endif"><a href="#">contato</a></li>
                             </ul>
                         </nav>
