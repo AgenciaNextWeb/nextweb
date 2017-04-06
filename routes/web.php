@@ -13,3 +13,5 @@
 
 $app->get('/', 'HomeController@index');
 $app->get('/sobrenos', 'AboutUsController@index');
+$app->get('/servicos', 'ServiceController@index');
+$app->get('/servicos/{view}', 'ServiceController@show');

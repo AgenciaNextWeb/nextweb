@@ -138,7 +138,7 @@
                             </div>
                             <div class="team-description">
                                 <h4>Mateus Demboski</h4>
-                                <h6>Gerente de Projeto</h6>
+                                <h6>Desenvolvedor Beck-end</h6>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                             </div>
                             <div class="team-description">
                                 <h4>Nicolas V. Sroczynski</h4>
-                                <h6>Gerente de Projeto</h6>
+                                <h6>Desenvolvedor Back-end</h6>
                             </div>
                         </div>
                     </div>
@@ -166,11 +166,12 @@
                             <div class="team-social">
                                 <ul>
                                     <li><a href="https://www.facebook.com/rodrigoborth" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/rodrigoborth" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                 </ul>
                             </div>
                             <div class="team-description">
                                 <h4>Rodrigo J Borth</h4>
-                                <h6>Diretor de Marketing</h6>
+                                <h6>Desenvolvedor Front-end</h6>
                             </div>
                         </div>
                     </div>

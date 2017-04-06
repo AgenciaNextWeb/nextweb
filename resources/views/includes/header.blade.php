@@ -14,14 +14,14 @@
                                 <li class="@if($page=='sobrenos')active @endif"><a href="/sobrenos">sobre nós</a></li>
                                 <li class="@if($page=='servicos')active @endif"><a href="/servicos">serviços<i class="fa fa-angle-down"></i></a>
                                     <ul>
-                                        <li><a href="#">Sites Personalizados</a></li>
-                                        <li><a href="#">Sites Padronizados</a></li>
-                                        <li><a href="#">Manutenção de Sites</a></li>
-                                        <li><a href="#">Mídias Sociais</a></li>
+                                        <li><a href="/servicos/sites-personalizados">Sites Personalizados</a></li>
+                                        <li><a href="/servicos/sites-padronizados">Sites Padronizados</a></li>
+                                        <li><a href="/servicos/manutencao-sites">Manutenção de Sites</a></li>
+                                        <li><a href="/servicos/midias-sociais">Mídias Sociais</a></li>
                                     </ul>
                                 </li>
-                                <li class="@if($page=='portfolio')active @endif"><a href="#">portfolio</a></li>
-                                <li class="@if($page=='contato')active @endif"><a href="#">contato</a></li>
+                                <li class="@if($page=='portfolio')active @endif"><a href="/portfolio">portfolio</a></li>
+                                <li class="@if($page=='contato')active @endif"><a href="/contato">contato</a></li>
                             </ul>
                         </nav>
                     </div>

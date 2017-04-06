@@ -62,8 +62,16 @@
                         <img class="img-responsive" src="image/team/team2.jpg" alt="">
                     </div>
                     <div class="col-md-8 col-sm-12">
-                        <h4>Mateus Demboski</h4>
-                        <p>escreve aqui tua biografia</p>
+                        <h4>Mateus Demboski - <span>Desenvolvedor Beck-end</span></h4>
+                        <p>
+                            Especialista em criação e manutençao de conteúdo para web, com foco na otimização dos mecanismos de busca.
+                        </p>
+                        <h5>Experiencia:</h5>
+                        <ul>
+                            <li><i class="fa fa-angle-right"></i> Desenvolvimento Front-end - 5 anos</li>
+                            <li><i class="fa fa-angle-right"></i> Marketing digital - 2 anos</li>
+                            <li><i class="fa fa-angle-right"></i> SEO - 2 anos</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="row bottom-margin-20">
@@ -71,8 +79,16 @@
                         <img class="img-responsive" src="image/team/team3.jpg" alt="">
                     </div>
                     <div class="col-md-8 col-sm-12">
-                        <h4>Nicolas V. Sroczynski</h4>
-                        <p>escreve aqui tua biografia</p>
+                        <h4>Nicolas V. Sroczynski - <span>Desenvolvedor Beck-end</span></h4>
+                        <p>
+                            Especialista em criação e manutençao de conteúdo para web, com foco na otimização dos mecanismos de busca.
+                        </p>
+                        <h5>Experiencia:</h5>
+                        <ul>
+                            <li><i class="fa fa-angle-right"></i> Desenvolvimento Front-end - 5 anos</li>
+                            <li><i class="fa fa-angle-right"></i> Marketing digital - 2 anos</li>
+                            <li><i class="fa fa-angle-right"></i> SEO - 2 anos</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="row">
@@ -80,12 +96,17 @@
                         <img class="img-responsive" src="image/team/team1.jpg" alt="">
                     </div>
                     <div class="col-md-8 col-sm-12">
-                        <h4>Rodrigo J. Borth</h4>
-                        <p>escreve aqui tua biografia</p>
+                        <h4>Rodrigo J. Borth - <span>Desenvolvedor Front-end & SEO</span></h4>
+                        <p>
+                            Especialista em criação e manutençao de conteúdo para web, com foco na otimização dos mecanismos de busca.
+                        </p>
+                        <h5>Experiencia:</h5>
+                        <ul>
+                            <li><i class="fa fa-angle-right"></i> Desenvolvimento Front-end - 5 anos</li>
+                            <li><i class="fa fa-angle-right"></i> Marketing digital - 2 anos</li>
+                            <li><i class="fa fa-angle-right"></i> SEO - 2 anos</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="row">
-                    <a href="/equipe" class="team-link pull-right">Mais informações</a>
                 </div>
             </div>
         </section>
